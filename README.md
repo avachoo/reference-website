@@ -158,7 +158,7 @@ EX.
 
 Some sub properties you may need for the flexbox property are justify-content to control the spacing between multiple pieces of content within the div, another property you could use is align-content to control how they are oriented within the container.
 
-17. 
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
 
 EX. 
 
