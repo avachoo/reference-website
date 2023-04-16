@@ -208,10 +208,10 @@ To prevent displaying empty columns, we can use the sub-property grid-auto-colum
 EX.
 
 .grid-container {
-    display: grid;
+    <p>display: grid;
     grid-template-areas: "image detail detail"
     grid-template-columns: 200px 400px;
-    grid-auto-columns: 150px;
+    grid-auto-columns: 150px;</p>
 }
 
 25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
