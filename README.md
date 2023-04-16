@@ -44,13 +44,15 @@ l. i: stands for "italic" and is used to define a certain part of a text and add
 
 m. small: defines a smaller text, such as a side-comment or copyright statement. This tag is typically used in the footer of a webpage.
 
-6. A block element occupies the horizontal space of its container and the vertical space equal to the content being displayed. Block elements can force a new line to begin and cause a line break to occur. 
+
+6. A block element occupies the horizontal space of its container and the vertical space equal to the content being displayed. Block elements can force a new line to begin and cause a line break to occur.
+
 
 a. html: used to define the beginning of the content within the text portion of a webpage and to define the language
 
 b. head: this block element is situated at the very top of an html file and contains metadata and is responsible for holding information about the document like scripts and style sheets.
 
-c. body: this element contains all the contents of an html page such as the paragraphs, images, lists, etc... It is used typically above the <main> tag.
+c. body: this element contains all the contents of an html page such as the paragraphs, images, lists, etc... It is used typically above the < main > tag.
 
 d. header: this element holds introductory content such as a main title, any logos, and any navigations.
 
@@ -219,7 +221,7 @@ We can add google fonts to our CSS file by copy pasting the code found in the bo
 EX.
 
 #header-1 {
-    font-family: 'Open Sans', serif;
+    <p>font-family: 'Open Sans', serif;</p>
 }
 
 
