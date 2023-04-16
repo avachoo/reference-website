@@ -86,21 +86,21 @@ c. image alternative texts: provide an alternative text for an image if a user c
 
 8. CSS stands for Cascading StyleSheet. It implements design choices to the HTML of a webpage and can stylize the information and content to add visual appeal and organization. We can implement our CSS to our HTML files by creating a link to the CSS file within the head our index.html file. A sample code:
 
-<html>
-<head>
+<p><html></p>
+<p><head></p>
 
-<link rel="stylesheet" href="/css/style.css">
+<p><link rel="stylesheet" href="/css/style.css"></p>
 
-</head>
+<p></head></p>
 
 9. A CSS property is a type of selector that specifies a characteristic of a webpage and can stylistically change its appearance. A CSS value is a unit of a CSS property whose value sets the change in a particular element. For example:
 
-< color > is a CSS property that changes the color of a text written in HTML
+<p>< color > is a CSS property that changes the color of a text written in HTML</p>
 
 Written as:
 
 .text {
-    color: white;
+    <p>color: white;</p>
 }
 
 10. Why do we use border-box property in CSS?
@@ -112,7 +112,7 @@ We use the border-box property in CSS to adapt or account for any padding or bor
 We can add spacing to different elements through multiple approaches. First, we can use the margin and padding property in our CSS to create space between a piece of content within a div, or to create more distance between a piece of content and other surrounding elements. Margin, in terms of a div, controls the space on the outside of the div in relation to the overall viewport, while padding controls the inner space between the content itself and the borders of the div. Another way we can add spacing to an element is by using flexbox. Using a property such as justify-content can control space between multiple elements on the same line and we can control their orientation. EX:
 
 .div {
-    justify-content: space-between;
+    <p>justify-content: space-between;</p>
 
 }
 
@@ -124,10 +124,10 @@ The main difference between margin and padding is that margin controls the space
 
 Some display properties include:
 
-display: flex;
-display: block;
-display: inline;
-display: inline-block;
+<p>display: flex;</p>
+<p>display: block;</p>
+<p>display: inline;</p>
+<p>display: inline-block;</p>
 
 These properties specify the display behaviour of the element
 
@@ -140,20 +140,20 @@ We can use properties like justify-content, align-items and align-self to stylis
 
 Different types of flexbox properties include:
 
-justify-content: controls how the browser adds space between different elements ( ex.space-between, space-evenly, space-around)
+<p>justify-content: controls how the browser adds space between different elements ( ex.space-between, space-evenly, space-around)</p>
 
-align-items: controls how items are laid within a container (ex.flex-start, flex-end, stretch, center)
+<p>align-items: controls how items are laid within a container (ex.flex-start, flex-end, stretch, center)</p
 
-flex-direction: controls items to be laid out either horizontally or vertically within a container
+<p>flex-direction: controls items to be laid out either horizontally or vertically within a container</p>
 
-align-content: aligns a flex container's lines only when there is more space on the cross-axis
+<p>align-content: aligns a flex container's lines only when there is more space on the cross-axis</p>
 
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 
 EX.
 
 .div-1 {
-    display: flex;
+    <p>display: flex;</p>
 }
 
 Some sub properties you may need for the flexbox property are justify-content to control the spacing between multiple pieces of content within the div, another property you could use is align-content to control how they are oriented within the container.
@@ -163,11 +163,11 @@ Some sub properties you may need for the flexbox property are justify-content to
 EX. 
 
 .div-1 {
-    display: flex;
-    justify-content: space-between;
-    align items: flex-start;
-    background color: #FAFAFA;
-    color: white;
+    <p>display: flex;</p>
+    <p>justify-content: space-between;</p>
+    <p>align items: flex-start;</p>
+    <p>background color: #FAFAFA;</p>
+    <p>color: white;</p>
     
 }
 
@@ -180,9 +180,9 @@ CSS grid property is a grid-based layout system that divides a page into multipl
 EX. 
 
 .div {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-rows: (4, 1fr);
+    <p>display: grid;</p>
+    <p>grid-gap: 5px;</p>
+    <p>grid-template-rows: (4, 1fr);</p>
 }
 
 20. What is the difference between display: flex and display: grid?
@@ -208,10 +208,10 @@ To prevent displaying empty columns, we can use the sub-property grid-auto-colum
 EX.
 
 .grid-container {
-    <p>display: grid;
-    grid-template-areas: "image detail detail"
-    grid-template-columns: 200px 400px;
-    grid-auto-columns: 150px;</p>
+    <p>display: grid;</p>
+    <p>grid-template-areas: "image detail detail"</p>
+    <p>grid-template-columns: 200px 400px;</p>
+    <p>grid-auto-columns: 150px;</p>
 }
 
 25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
