@@ -36,9 +36,9 @@ h. cite: is used to specify a URL that relates to or explains a quote.
 
 i. em: stands for "emphasis" and is used for words that have a stressed emphasis compared to other text. It creates an italic effect on a particular word and can be nested within another tag such as <p>
 
-j. strong: is used to define a particular text or words as an importance or urgency. Using <strong> nested within a <p> tag will result in that word being bold.
+j. strong: is used to define a particular text or words as an importance or urgency. Using < strong > nested within a < p > tag will result in that word being bold.
 
-k. b: stands for "bold" and is similar to <strong> tag. Nesting within a <p> tag will result in a bold text but does not represent importance.
+k. b: stands for "bold" and is similar to < strong > tag. Nesting within a < p > tag will result in a bold text but does not represent importance.
 
 l. i: stands for "italic" and is used to define a certain part of a text and adds an italic effect.
 
